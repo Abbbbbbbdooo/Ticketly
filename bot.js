@@ -86,4 +86,6 @@ if (message.content.toLowerCase().startsWith(prefix + `close`)) {
 
 });
 
-client.login(token);
+
+
+client.login('process.env.BOT_TOKEN')
